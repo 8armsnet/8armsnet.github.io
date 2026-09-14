@@ -1,19 +1,65 @@
 site_name: 13Repository | 8ARMS
+site_url: https://8armsnet.github.io/
+site_author: 8arms.net
 
 theme:
   name: material
   language: zh-TW
   icon:
     logo: material/quadcopter
+
   features:
     - search.highlight #搜尋結果高亮顯示
     - navigation.top #回到頂部按鍵
     - navigation.tabs #導覽列
     - navigation.tabs.sticky #導覽列黏性
     - navigation.path #路徑顯示
+
   palette:
     scheme: slate #深色模式
     primary: black #標題、側邊欄、文本鏈接顏色
     accent: yellow
 
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
+
+nav:
+  - Home: index.md
+  - 載具零組件:
+    - 飛控: FC 飛控.md
+    - 電子調速器: ESC 電子調速器.md
+    - 馬達: Motor 馬達.md
+    - 槳葉: Prop 槳葉.md
+  - 衛星接收器:
+    - GNSS接收器: GNSS接收器.md
+    - GNSS模組: GNSS模組.md
+  - 電池組:
+    - 電池組/index.md
+    - 1S電池組: 1S電池組.md
+    - 3S電池組: 3S電池組.md
+    - 4S電池組: 4S電池組.md
+    - 6S電池組: 6S電池組.md
+    - 12S電池組: 12S電池組.md
+    - 固態電池 300wh-kg.md: 固態電池 300wh-kg.md
+    - 固態電池 350wh-kg.md: 固態電池 350wh-kg.md
+    - 固態電池 400wh-kg.md: 固態電池 400wh-kg.md
+    - 固態電池 520wh-kg.md: 固態電池 520wh-kg.md
+    - 固態電池 600wh-kg.md: 固態電池 600wh-kg.md
+  - 傳輸模組:
+    - TELE 數傳模組: TELE 數傳模組.md
+    - VTX/RX 圖傳模組: VTX-RX 圖傳模組.md
+    - CTX/RX 控制模組: CTX-RX 控制模組.md
+  - 耗材:
+    - 接頭: 接頭.md
+    - 線材: AWG線材.md
+    - 機架: Frame 機架.md
+  - 工具設備: 工具設備/index.md
+  - 學習套件:
+    - WB330 多旋翼套件: WB330 多旋翼套件.md
+    - WB450 多旋翼套件: WB450 多旋翼套件.md
+    - WB550 多旋翼套件: WB550 多旋翼套件.md
+  - 成品機型:
+    - 鐵頭系列: 鐵頭系列.md
+    - 方舟系列: 方舟系列.md
+    - 奈我何系列: 奈我何系列.md
+    - 梅杜莎系列: 梅杜莎系列.md
+    - 修羅系列: 修羅系列.md
