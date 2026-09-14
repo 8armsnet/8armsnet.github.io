@@ -1,6 +1,7 @@
-site_name: 8ARMS
+site_name: 13Repository | 8ARMS
 
 theme:
   name: material
   language: zh-TW
-
+  icon:
+    logo: material/quadcopter
