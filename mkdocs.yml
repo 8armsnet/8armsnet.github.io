@@ -14,5 +14,6 @@ theme:
   palette:
     scheme: slate #深色模式
     primary: black #標題、側邊欄、文本鏈接顏色
+    accent: yellow
 
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
