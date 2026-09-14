@@ -1,5 +1,6 @@
 site_name: 8ARMS
 
 theme:
+  name: material
   language: zh-TW
-  
+
