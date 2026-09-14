@@ -20,10 +20,13 @@ theme:
     primary: black #標題、側邊欄、文本鏈接顏色
     accent: yellow
 
+extra_css:
+  - stylesheets/extra.css
+
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
 
 nav:
-  - Home: index.md
+  - 首頁: index.md
   - 載具零組件:
     - FC 飛控: 載具零組件\FC飛控.md
     - ESC 電子調速器: 載具零組件\ESC電子調速器.md
