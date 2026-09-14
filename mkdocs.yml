@@ -11,5 +11,8 @@ theme:
     - navigation.tabs #導覽列
     - navigation.tabs.sticky #導覽列黏性
     - navigation.path #路徑顯示
+  palette:
+    scheme: slate #深色模式
+    primary: black #標題、側邊欄、文本鏈接顏色
 
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
