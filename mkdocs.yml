@@ -5,5 +5,10 @@ theme:
   language: zh-TW
   icon:
     logo: material/quadcopter
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
 
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
