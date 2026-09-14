@@ -6,9 +6,10 @@ theme:
   icon:
     logo: material/quadcopter
   features:
-    - navigation.top
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.path
+    - search.highlight #搜尋結果高亮顯示
+    - navigation.top #回到頂部按鍵
+    - navigation.tabs #導覽列
+    - navigation.tabs.sticky #導覽列黏性
+    - navigation.path #路徑顯示
 
 copyright: Copyright @ 2019-2026 13Repository All Rights Reserved
