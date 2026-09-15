@@ -24,7 +24,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## 使用方法
 
-定期更新倉庫物品資訊、與庫存狀態，初次使用請按照下方步驟
+定期更新倉庫物品資訊、與庫存狀態，請按照下方步驟
 
 1 加入倉庫管理員LINE帳號 - @387uhazm  
 2 輸入[驗證碼] - 驗證碼輸入後管理員提供對應倉庫網址  
