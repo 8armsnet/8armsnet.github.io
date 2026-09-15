@@ -19,7 +19,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 # Welcome to 13Repository | 8ARMS
 
-13號倉庫提供專為特殊零組件存放服務  
+13號倉庫提供特殊零組件存放服務  
 > 只負責零件供給，不提供技術詢問服務
 
 ## 使用方法
