@@ -3,7 +3,7 @@
 
 下次盤點時間：2026/09/18
 
-## 8ARMS_RGT_F405
+## 8ARMS_RGT_E2U_F405
 
 零件編號：1-ZD-FR-E2U-F405
 
@@ -27,24 +27,48 @@
 | 重量 | 2.8 g（不含排針）；焊排針約 5.3 g |
 | PCB | 黑油、沉金、樹脂塞孔、四層板 |
 
-![8ARMS_RGT_F405](../assets/images/zsHlx.jpg)
-![8ARMS_RGT_F405](../assets/images/8ONEy.jpg)
+> 注意：這不是一體式 wing 飛控。板上沒有舵機供電軌，舵機必須用外接 BEC。體積雖小，完整系統仍需獨立電源模組。
 
-### 101010
-11111111111111111111111
-111111111111111111111111111111111111111111111111111
-1111111111111111111111111111111111111
 
-#### aaa
+![8ARMS_RGT_E2U_F405_尺寸圖](../assets/images/1-ZD-FR-E2U-F405/zsHlx.jpg)
+![8ARMS_RGT_E2U_F405_接線圖](../assets/images/1-ZD-FR-E2U-F405/A0T4m.jpg)
+---
+
+## 8ARMS_RGT_2VU_F405
+
+零件編號：1-ZD-FR-2VU-F405
+
+| 項目 | 規格 |
+| --- | --- |
+| 型號 | FlyingRC F4D MK1 |
+| 尺寸 | 36.6 × 36.6 × 8.0 mm；剪斷安裝耳後 28.1 × 31.1 × 8.0 mm |
+| 孔距 | 30.5 mm／20 mm（內孔 Φ4 mm） |
+| 質量 | 6.3 g |
+| 主控 | STM32F405RGT6，168 MHz，Flash 1 MB，RAM 192 KB |
+| IMU | Invensense 第三代 ICM-42688-P |
+| 氣壓計 | Goertek SPA06／SPA06-003 |
+| 磁力計 | 無板載 |
+| 類比 OSD | AT7456E |
+| BEC | MP9943 + MP9943：設備 **5V／3A**，圖傳 **9V／2A** |
+| UART | 6 組（UART3 僅引出 RX） |
+| PWM | 5 個（4 ESC + 1 LED） |
+| I2C | 1 |
+| 電流 ADC | 支援（板載電流計取樣） |
+| SWD | 無 |
+| 蜂鳴器 | 參數表標示無 |
+| LED | 支援 WS2812 |
+| USB | Type-C 板載直插 |
+| 黑盒子 | 板載 NOR Flash 16 MB（128 Mbit） |
+| SBUS | 參數表標示不支援（接收機多用 CRSF／ELRS UART） |
+| VBAT | 7–28 V DC IN，2–6S LiPo |
+| 工作溫度 | −10–100 °C |
+| 儲存溫度 | 0–40 °C |
+
+![8ARMS_RGT_2VU_F405_尺寸圖](../assets/images/1-ZD-FR-2VU-F405/mqddy.jpg)
+![8ARMS_RGT_2VU_F405_尺寸圖](../assets/images/1-ZD-FR-2VU-F405/wiring-full.jpg)
+---
+
+## aaa
 bbbbbbbbbbbbbbbbbbbbbb
 ccccccccccccccccccccccccccccccccc
 
-##### ddd
-a;sldfjas;ldfjas;dlfjas;lfkjasd;lkf
-as;dflkjasd;lfkjasd;f
-as;dflkjasd;lfads;fljasdf;lkasjf;lasdjf;kdl
-as;dflkjasd;flkjsad;f
-a;sdflkjas;dflkjas;dfjkas;ldfj
-a;sdflkjas;dflkj
-a;sldfja;sdlfjas;dfjkas;dlfkjas;
-;asldfa;sldkj;lasdkf;asfj
